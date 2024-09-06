@@ -8,5 +8,8 @@
 -- points+10 as "points increased" 
 -- from customers;
 
-select state from customers;
+-- select state from customers; 
 SELECT DISTINCT state FROM Customers;
+
+select * from customers
+limit 5;
